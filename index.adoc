@@ -1,0 +1,110 @@
+= IT Finishers - Idealizar, Planejar, Executar e Finalizar
+Paulo Jerônimo
+:toc: right
+:toc-title: Conteúdo
+
+Dois mil e quinze (2015), ano novo, chegou. Com ele, novos projetos. O `IT Finishers` é uma link:./#_equipe[equipe composta por mim e alguns amigos], focada no desenvolvimento de soluções para a área esportiva e de saúde. Algumas idéias que tive para os projetos dessa equipe são novas. Outras são aprimoramentos de idéias que tive no passado e que, por algum motivo, não puderam ser executadas. O que importa é essa equipe começa, agora, com bons projetos e num ótimo momento. Muitos desafios pela frente! \o/
+
+== Tecnologia da informação, esportes e o prazer de finalizar (bem) as coisas
+
+A idéia principal do `IT Finishers` é reunir algumas coisas que amamos: a tecnologia da informação (TI ou `IT` (em inglês)), os esportes (em especial o triatlo e as corridas de rua) e, por fim, a maravilhosa sensação que todos nós temos quando finalizamos bem projetos de TI ou cruzamos uma linha de chegada numa prova de corrida ou triatlo (daí o termo `Finisher`).
+
+`Finishers` são pessoas disciplinadas e determinadas a terminarem o que começaram, seja nos esportes ou no trabalho. No contexto desse projeto os `finishers`, além de serem este tipo de pessoa, também são bons amigos. =)
+
+O foco do principal do projeto `IT Finishers` é o *desenvolvimento de soluções de TI para a área esportiva e de saúde*. Contudo, o escopo de atuação dos `IT Finishers` é maior e vai além, conforme será explicado no decorrer desse `post`.
+
+== Desenvolvimento de software livre
+
+No projeto `IT Finishers` estamos desenvolvendo software livre e treinando. http://en.wikipedia.org/wiki/Eating_your_own_dog_food[We eat our own dog food].
+
+Produzindo software livre, estamos garantindo que nossos usuários terão acesso as seguintes liberdades:
+
+* 1ª liberdade: A liberdade de executar o software, para qualquer uso.
+* 2ª liberdade: A liberdade de estudar o funcionamento de um programa e de adaptá-lo às suas necessidades.
+* 3ª liberdade: A liberdade de redistribuir cópias.
+* 4ª liberdade: A liberdade de melhorar o programa e de tornar as modificações públicas de modo que a comunidade inteira beneficie da melhoria.
+
+Importante:
+
+* Não confunda software livre com software gratuito. São coisas distintas.
+* Utilizamos o código que produzimos para atuar na área de ensino.
+
+== Treinamento constante (intelectual e físico)
+
+No contexto do `IT Finishers` "treinar" é uma palavra de grande amplitude. Somos uma equipe cujos membros valorizam, num mesmo grau, tanto o treinamento intelectual (necessário para a produção de software) quanto o físico. Acreditamos que o bom equilíbrio entre esses dois treinamentos é o que nos torna preparados para quaisquer desafios relativos ao desenvolvimento das aplicações que nos propomos a desenvolver.
+
+A tecnologia da informação é uma área de atuação que testa os limites intelectuais das pessoas chegando, muitas vezes, até mesmo a estressá-los. Por esse motivo, e por experiências pessoais, temos a plena convicção de que a prática esportiva é fundamental para manter a mente saudável. Nosso treinamento, nessa área, se dá através da prática cotidiana de desenvolver software e ensinar, divulgando e repassando conhecimento.
+
+== Ensino
+
+Pela nossa experiência, só conseguimos evoluir através de treinamento constante e progressivo. Também temos a plena convicção de que uma das melhores formas de aprender é ensinando. Justamente por isso treinamos nossas habilidades desenvolvendo software para, em seguida, ensinarmos o que aprendemos. Nosso site é hospedado no http://pages.github.com[GitHub Pages] e contém o código fonte de tudo o que escrevemos e publicamos. Para ampliar nosso alcance, divulgaremos a marca `IT Finishers` nas redes sociais.
+ 
+== Projetos e comercialização
+
+. *Desenvolvimento de software livre para a área esportiva e de saúde*
+.. Comercializados no modelo http://pt.wikipedia.org/wiki/Software_como_serviço[SaaS]
+.. Pago por assessorias esportivas, academias, personal trainers, nutricionistas, etc
+.. Funcional em browsers e dispositivos móveis (tablets e smartphones)
+.. Projetos:
+... http://a.paulojeronimo.info/3plans/docs/index.html[3Plans.net] (http://www.infoq.com/br/presentations/migrando-javaee-6-para-7[vídeo, publicado pelo InfoQ, de sua apresentação no TDC 2013])
+. *Treinamentos*
+.. Negócio secundário
+.. Comercializado no modelo de assinaturas como em alguns sites internacionais (https://www.codeschool.com[Code School], http://tutsplus.com[Tuts+], http://www.lynda.com/default.aspx[Lynda]) e nacionais (http://alura.com.br[Alura]).
+.. Diferenciais:
+... Apostilas (em PDF, ePub, etc) completamente gratuitas
+... Material prático focado na apresentação das soluções que desenvolvemos e/ou desafios que vivenciamos
+
+== Equipe
+
+* link:./equipe/paulojeronimo/[Paulo Jerônimo]
+* http://br.linkedin.com/in/jonascavalcanti[Jonas Cavalcanti]
+* https://www.facebook.com/hodrigohamalho[Rodrigo Ramalho]
+* https://www.facebook.com/kahmacedo[Karina Macedo]
+* https://www.facebook.com/marceloancelmo[Marcelo Sousa Ancelmo]
+
+== Participe
+
+O IT Finishers é uma equipe aberta a participação de qualquer um que esteja interessado em:
+
+. Desenvolver software livre para a área esportiva e de saúde;
+. Compartilhar conhecimento na área de TI;
+. Praticar esportes com uma galera entusiasmada! ;)
+
+Entrar para nossa equipe a equipe é muito fácil! Em primeiro lugar, você deve estar praticando algum esporte, precisa ter metas claramente definidas para o que você faz nele e divulgá-las para nós! Essa é uma de nossas poucas exigências. Além disso, você também deve ser um profissional da área de TI, precisa nos dizer como pretende ser útil no grupo (há várias formas de sê-lo) e assumir um compromisso com a equipe.
+
+== Plano de ação
+
+Nossa equipe cresce tendo idéias, planejando e alcançando metas. Nossas idéias surgem, principalmente, durante nossa prática esportiva. Por isso nossa exigência de só aceitarmos atletas em nossa equipe. No desenvolvimento, utilizamos metodologias ágeis e fazemos `sprints`. Aliás, `sprints` são nossas especialidades tanto no desenvolvimento quanto nos treinos! :D
+
+Nossas primeiras tarefas, em equipe, são as seguintes:
+
+* Definir e elaborar a primeira versão do site IT Finishers
+** Site itfinishers.org deve ser estático, responsivo e de fácil navegação em vários dispositivos
+*** Todo conteúdo público e disponível como software livre
+*** Alternativas (sem custo inicial) p/ hospedagem: GitHub Pages ou OpenShift
+*** Alternativas p/ desenvolvimento do frontend: Asciidoctor, Slim, HTML 5, CSS 3, JavaScript, AngularJS, OpenShift, etc
+*** Alternativas geração estática: http://awestruct.org[Awestruct] (Ruby), http://octopress.org[Octopress] (Ruby), http://gohugo.io[Hugo] (Go)
+** Alguns itens de menu do site: Parceiros, Quem somos, Projetos, Cursos, Livros, Equipe, Blog, Podcast, etc
+* Definir o plano de comunicação e os horários de encontro da equipe
+** Agendar a primeira reunião (Hangout) com os participantes
+** Grupos (Skype, WhatsApp) e listas de discussão
+* Criar a logomarca da equipe
+** Seria bom ter artistas (web designers e arquitetos da informação) na equipe! ;)
+* Elaborar uma apresentação para convidar novos membros para a equipe do IT Finishers
+** Devererá conter um diagrama de atividades que apresenta modelos de participação
+*** Para entrar no grupo, cada participante precisa definir suas metas (objetivos/prazos)
+*** Também precisa engajar-se num modelo de participação (modelos serão definidos)
+** Meritocracia é a palavra de ordem do grupo! ;)
+* Estabelecer e publicar a marca IT Finishers nas redes sociais
+** Facebook, Linkedin, GitHub, YouTube, Twitter, Google+, etc
+* Definir e estabelecer a ordem dos projetos do IT Finishers
+** Elaborados num curto espaço de tempo (como uma preparação de 5 semanas para uma meia maratona) e aprimorados gradualmente
+** Primeiros projetos: calendário de provas pessoais e cadastro de potenciais patrocinadores
+** Aplicações para web e para dispositivos móveis (tablets e smartphones)
+* Convidar mais amigos para participar da equipe e ampliá-la
+** Meritocracia será a palavra de ordem
+* Criar a camiseta de provas do grupo!
+** Para aparecer nos eventos (provas de corrida, triatlo, etc)
+* Definir os treinamentos ministrados (e o seu modelo de comercialização)
+* Iniciar a busca por potenciais patrocinadores do projeto
+** Investidores, assessorias esportivas, academias, personal trainers, nutricionistas, etc

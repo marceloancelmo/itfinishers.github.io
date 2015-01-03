@@ -1,0 +1,46 @@
+#!/bin/bash
+# Author: Paulo Jeronimo (paulojeronimo@gmail.com, @paulojeronimo)
+#
+# Simple HTTP server. Depends on Ruby.
+
+LOG=/tmp/$(basename "$0").$USER.log
+REGEX='ruby.*httpd.*8000'
+
+_status() {
+  local ps=$(ps -ef)
+  echo $ps | grep -q "$REGEX" && echo Running || echo Stoped
+}
+
+_start() {
+  [ `_status` = Running ] && { echo "Already started"; exit; } ||
+  (ruby -run -e httpd . -p 8000 &> $LOG &) && echo Started 
+  _log
+}
+
+_stop() {
+  [ `_status` = Stoped ] && { echo "Already stoped"; exit; } ||
+  kill $(ps -ef | grep "$REGEX" | head -n 1 | awk '{print $2}') && echo Stoped
+  _log off
+}
+
+_log() {
+  local op=${1:-on}
+  case $op in
+    on)
+      tail -f $LOG &
+      ;;
+    off)
+      pkill tail
+      ;;
+  esac
+}
+
+op=${1}; shift
+
+[ "$op" ] || { echo "Use: ./$(basename $0) <status|start|stop|log>"; exit; }
+type _$op &> /dev/null && _${op} "$@" || {
+  echo "Operation \"$op\" does not exists!"
+  exit 1
+}
+
+# vim: set ts=2 sw=2 expandtab:

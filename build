@@ -1,0 +1,45 @@
+#!/bin/bash
+# Author: Paulo Jeronimo (paulojeronimo@gmail.com, @paulojeronimo)
+#
+# Script to build the entire website using only asciidoctor
+
+basedir=`d=$(dirname "$0"); cd "$d"; echo -n $PWD`
+op=${1:-build}
+
+pages_build() {
+   local f=$1
+   local d
+   local x
+
+   d=`dirname $f`    
+   [ "$d" = "." ] && x=. || x=..
+   while true
+   do
+      d=`dirname $d`
+      [ "$d" = "." ] && break
+      x="../$x"
+   done
+
+   local cmd="asciidoctor -a linkcss -a stylesheet=$x/css/colony.css $f"
+
+   echo "$cmd"; $cmd
+}
+
+_build() {
+   find . -type f -name "*.adoc" | \
+   while read f
+   do 
+      h=${f/adoc/html}
+      [ ! -f "$h" ] && pages_build "$f"
+      [ "$f" -nt "$h" ] && pages_build "$f"
+   done
+}
+
+_clean() {
+   find . -type f -name "*.html" -delete
+}
+
+cd "$basedir"
+_$op
+
+# vim: set ts=3 sw=3 expandtab:
