@@ -37,8 +37,8 @@ A tecnologia da informação é uma área de atuação que testa os limites inte
 
 == Ensino
 
-Pela nossa experiência, só conseguimos evoluir através de treinamento constante e progressivo. Também temos a plena convicção de que uma das melhores formas de aprender é ensinando. Justamente por isso treinamos nossas habilidades desenvolvendo software para, em seguida, ensinarmos o que aprendemos. Nosso site é hospedado no http://pages.github.com[GitHub Pages] e contém o código fonte de tudo o que escrevemos e publicamos. Para ampliar nosso alcance, divulgaremos a marca `IT Finishers` nas redes sociais.
- 
+Pela nossa experiência, só conseguimos evoluir através de treinamento constante e progressivo. Também temos a plena convicção de que uma das melhores formas de aprender é ensinando. Justamente por isso treinamos nossas habilidades desenvolvendo software para, em seguida, ensinarmos o que aprendemos. Nosso site é hospedado no http://pages.github.com[GitHub Pages] e contém o http://github.com/itfinishers[código fonte de tudo o que escrevemos e publicamos]. 
+
 == Projetos e comercialização
 
 . *Desenvolvimento de software livre para a área esportiva e de saúde*
@@ -47,6 +47,7 @@ Pela nossa experiência, só conseguimos evoluir através de treinamento constan
 .. Funcional em browsers e dispositivos móveis (tablets e smartphones)
 .. Projetos:
 ... http://a.paulojeronimo.info/3plans/docs/index.html[3Plans.net] (http://www.infoq.com/br/presentations/migrando-javaee-6-para-7[vídeo, publicado pelo InfoQ, de sua apresentação no TDC 2013])
+.... link:./projetos/3plans/planos-de-releases/0.1.0/[Plano do release 0.1.0]
 . *Treinamentos*
 .. Negócio secundário
 .. Comercializado no modelo de assinaturas como em alguns sites internacionais (https://www.codeschool.com[Code School], http://tutsplus.com[Tuts+], http://www.lynda.com/default.aspx[Lynda]) e nacionais (http://alura.com.br[Alura]).
@@ -64,13 +65,27 @@ Pela nossa experiência, só conseguimos evoluir através de treinamento constan
 
 == Participe
 
-O IT Finishers é uma equipe aberta a participação de qualquer um que esteja interessado em:
+O IT Finishers é uma *equipe aberta* a participação de qualquer um que esteja interessado em:
 
 . Desenvolver software livre para a área esportiva e de saúde;
 . Compartilhar conhecimento na área de TI;
 . Praticar esportes com uma galera entusiasmada! ;)
 
-Entrar para nossa equipe a equipe é muito fácil! Em primeiro lugar, você deve estar praticando algum esporte, precisa ter metas claramente definidas para o que você faz nele e divulgá-las para nós! Essa é uma de nossas poucas exigências. Além disso, você também deve ser um profissional da área de TI, precisa nos dizer como pretende ser útil no grupo (há várias formas de sê-lo) e assumir um compromisso com a equipe.
+Entrar para nossa equipe é muito fácil! Em primeiro lugar, você deve estar praticando algum esporte, precisa ter metas claramente definidas para o que você faz nele e divulgá-las para nós! Essa é uma de nossas poucas exigências. Além disso, você também deve ser um profissional da área de TI, precisa nos dizer como pretende ser útil no grupo (há várias formas de sê-lo) e assumir um compromisso com a equipe.
+
+== Redes sociais
+
+Para ampliar nosso alcance, divulgamos a marca `IT Finishers` nas redes sociais (nossa ambição é ser uma rede social). Até agora, estamos presentes nas seguintes redes:
+
+* GitHub: http://github.com/itfinishers
+* Twitter: http://twitter.com/itfinishers[@ITFinishers]
+
+*TODO*:
+
+* Facebook
+* Instagram
+* Google+
+* Linkedin
 
 == Plano de ação
 
@@ -79,7 +94,7 @@ Nossa equipe cresce tendo idéias, planejando e alcançando metas. Nossas idéia
 Nossas primeiras tarefas, em equipe, são as seguintes:
 
 * Definir e elaborar a primeira versão do site IT Finishers
-** Site itfinishers.org deve ser estático, responsivo e de fácil navegação em vários dispositivos
+** O site itfinishers[.github.io|.org] deve ser estático, responsivo e de fácil navegação em vários dispositivos
 *** Todo conteúdo público e disponível como software livre
 *** Alternativas (sem custo inicial) p/ hospedagem: GitHub Pages ou OpenShift
 *** Alternativas p/ desenvolvimento do frontend: Asciidoctor, Slim, HTML 5, CSS 3, JavaScript, AngularJS, OpenShift, etc
@@ -87,7 +102,9 @@ Nossas primeiras tarefas, em equipe, são as seguintes:
 ** Alguns itens de menu do site: Parceiros, Quem somos, Projetos, Cursos, Livros, Equipe, Blog, Podcast, etc
 * Definir o plano de comunicação e os horários de encontro da equipe
 ** Agendar a primeira reunião (Hangout) com os participantes
+*** Agendado! Será em 08/Jan/2015 às 22:00 (horário de Brasília)
 ** Grupos (Skype, WhatsApp) e listas de discussão
+*** WhatsApp criado!
 * Criar a logomarca da equipe
 ** Seria bom ter artistas (web designers e arquitetos da informação) na equipe! ;)
 * Elaborar uma apresentação para convidar novos membros para a equipe do IT Finishers
@@ -105,6 +122,6 @@ Nossas primeiras tarefas, em equipe, são as seguintes:
 ** Meritocracia será a palavra de ordem
 * Criar a camiseta de provas do grupo!
 ** Para aparecer nos eventos (provas de corrida, triatlo, etc)
-* Definir os treinamentos ministrados (e o seu modelo de comercialização)
+* Definir os primeiros treinamentos a serem criados
 * Iniciar a busca por potenciais patrocinadores do projeto
 ** Investidores, assessorias esportivas, academias, personal trainers, nutricionistas, etc

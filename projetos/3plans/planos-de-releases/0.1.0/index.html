@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 1.5.2">
+<meta name="author" content="Paulo Jerônimo">
+<title>Projeto 3plans - release 0.1.0: calendário de provas</title>
+<link rel="stylesheet" href="./../../../../css/colony.css">
+</head>
+<body class="article">
+<div id="header">
+<h1>Projeto 3plans - release 0.1.0: calendário de provas</h1>
+<div class="details">
+<span id="author" class="author">Paulo Jerônimo</span><br>
+</div>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>O calendário de provas é um dos itens mais importantes para um atleta. Para corredores e/ou triatletas, a data de uma prova é o que dirige sua preparação pois, tendo como objetivo a participação numa prova, como uma meia maratona (21k) por exemplo, o atleta se programa através dessa data e de planilhas de treino com duração determinada. No meu caso, minha primeira meia maratona de 2015 será a <a href="http://www.meiamaratonadaspontes.com.br">Meia Maratona das Pontes</a>, em Brasília/DF, que ocorrerá no dia 08 de fevereiro. Definida a data de início dos treinos (05/Jan) e tendo como meta a conclusão desta meia maratona num tempo inferior a 2h, estou seguindo uma <a href="http://revistacontrarelogio.com.br/materia/preparando-se-para-os-21-km-em-5-semanas-uma-proposta-de-treino-com-base-na-frequencia-cardiaca/">planilha de treino de cinco semanas</a>. Meu último dia de execução dessa planilha é, obviamente, o dia da prova.</p>
+</div>
+<div class="paragraph">
+<p>A <a href="../../../../#_equipe">equipe IT Finishers</a> pensando na importância do calendário para o atleta, está iniciando a construção do projeto 3plans a partir dele. A idéia por trás da apresentação de um calendário no 3plans, porém, vai um pouco além de uma simples listagem de provas por data e nome. Começa dessa forma mas evolui, gradualmente, em novas versões, para algo maior.</p>
+</div>
+<div class="paragraph">
+<p>O primeiro release do 3plans (0.1.0) possibilitará aos atletas a montagem de seu próprio calendário de provas. Para isso, o atleta selecionará, dentre uma lista de provas previamente cadastradas pelo administrador do sistema, as provas que ele tem a intenção de participar. Em seu calendário pessoal, o atleta também poderá selecionar se deseja tornar pública (ou não) a informação das provas que intenciona participar. Nesse primeiro release, também será disponibilizado pelo 3plans uma forma do atleta apresentar seu calendário público em qualquer site que desejar, de forma semelhante ao que é possível ser feito hoje, por exemplo, no <a href="http://instagram.com">Instagram</a>, quando uma pessoa deseja colar uma foto pública de seu Instagram em alguma outra página como o seu próprio blog (exemplo).</p>
+</div>
+<div class="paragraph">
+<p>Em resumo, o objetivo final desse primeiro release é tornar possível eu (assim como qualquer outro atleta) gerenciar e tornar público o meu próprio calendário de provas em <a href="../../../../equipe/paulojeronimo/">minha página pessoal no IT Finishers</a> ou em outra página HTML qualquer. Atualmente, eu já tenho <a href="../../../../equipe/paulojeronimo/#_metas">meu calendário publicado</a> mas, escrevendo-o, manualmente, nessa página. O que quero é buscar estas informações a partir do sistema 3plans.</p>
+</div>
+<div class="paragraph">
+<p>Para exemplificar outros calendários de provas, posso citar os que estão disponíveis em vários sites nacionais e internacionais:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Nacionais:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://runnersworld.abril.com.br/agenda/">Runners World</a></p>
+</li>
+<li>
+<p><a href="http://www.mksesportes.com.br/index.php?option=com_content&amp;view=article&amp;id=412:calendario-2015&amp;catid=46:evento&amp;Itemid=37">MKS Esportes (Brasília/DF)</a></p>
+</li>
+<li>
+<p><a href="http://www.nextrun.com.br/novo/?p=2080">Equipe NextRun (Brasília/DF)</a></p>
+</li>
+<li>
+<p><a href="http://www.corce.org/calendario.html">CORCE - Corredores de Rua do Ceará</a></p>
+</li>
+<li>
+<p><a href="http://www.corpore.org.br/eve_calendariocorpore_2015.asp">Corpore</a></p>
+</li>
+<li>
+<p><a href="http://www.minhasinscricoes.com.br/sitemi/2010/">Minhas Inscrições</a></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Internacionais:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://www.runningintheusa.com/Race/Calendar.aspx">Running in the USA</a></p>
+</li>
+<li>
+<p><a href="http://www.marathonguide.com/races/races.cfm?place=intl">Marathon Guide</a></p>
+</li>
+<li>
+<p><a href="http://uktriathlon.co.uk/tristore/286-triathlon-events-2015">UK Triathlon Store</a></p>
+</li>
+<li>
+<p><a href="http://www.active.com/triathlon">Active</a></p>
+</li>
+<li>
+<p><a href="http://www.halfmarathons.net/race-calendar/">Half Marathons</a></p>
+</li>
+<li>
+<p><a href="http://www.irishtriathlon.com/race-calendar-ireland/races/">Irish Triathlon</a></p>
+</li>
+<li>
+<p><a href="http://www.nyrr.org/races-and-events/2015">New York Road Runners</a></p>
+</li>
+<li>
+<p><a href="http://www.sportinglife.com/racing/calendar/2015/january">Sporting Life</a></p>
+</li>
+<li>
+<p><a href="http://www.trifind.com">TriFind</a></p>
+</li>
+<li>
+<p><a href="http://trimapper.com/triathlon-calendar/">TriMapper</a></p>
+</li>
+<li>
+<p><a href="http://runworcester.com/course/">Prova de 21k próximo a Boston (no período do RedHat Summit)</a></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Implicitamente, para nós do IT Finishers, a funcionalidade de oferecer um calendário particular para um atleta no 3plans inicia a construção de nossa base de atletas. Releases futuros do 3plans passarão a oferecer muitas outras funcionalidades, tanto para atletas quanto a patrocinadores do sistema.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_outras_funcinalidades">Outras funcinalidades</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Também para esta release, implicitamente, são esperadas as seguintes funcionalidades:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Sign up, Sign in e Sign out (do atleta);</p>
+</li>
+<li>
+<p>Gerenciamento da base de provas (apenas pelo administrador do sistema);</p>
+</li>
+<li>
+<p>Listagem (com vários filtros) de provas agendadas no mundo inteiro (utilizada pelo atleta para montar seu calendário);</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Filtros por:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Período</p>
+</li>
+<li>
+<p>Nome de prova</p>
+</li>
+<li>
+<p>Cidade/Estado/País</p>
+</li>
+<li>
+<p>Tipo de prova (5k, 10k, 21k, 42k, Ironman 70.3, Ironman 140.6, etc)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Sugestão de inclusão de prova (pelo atleta);</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Possibilita que o atleta sugira a administração do 3plans a inserção, em sua base, de uma prova identificada pelo atleta;</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_características_não_funcionais_e_ou_arquiteturais">Características não funcionais e/ou arquiteturais</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Para este primeiro release também é esperado que:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>O frontend seja apenas em HTML 5, construído com o uso do <a href="https://angularjs.org">AngularJS</a>;</p>
+<div class="ulist">
+<ul>
+<li>
+<p>O suporte a tablets e smartphones, ainda que previsto, não será oferecido através de aplicações nativas (Android e/ou iOS);</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>A aplicação esteja disponível para execução no <a href="https://www.openshift.com">OpenShift</a>;</p>
+</li>
+<li>
+<p>O mecanismo de autenticação e autorização seja realizadas através do <a href="http://keycloak.jboss.org">Keycloak</a>;</p>
+</li>
+<li>
+<p>Haja suporte para a execução tanto em desktops quanto smartphones;</p>
+</li>
+<li>
+<p>A aplicação seja internacionalizada suportando, inicialmente, as línguas português e inglês;</p>
+<div class="ulist">
+<ul>
+<li>
+<p>O suporte a espanhol será oferecido num release futuro;</p>
+</li>
+<li>
+<p><a href="http://blog.trifork.com/2014/04/10/internationalization-with-angularjs/">Post sobre internacionalização de aplicações AngularJS</a>;</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2015-01-04 16:37:34 BRST
+</div>
+</div>
+</body>
+</html>
